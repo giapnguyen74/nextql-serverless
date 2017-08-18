@@ -40,15 +40,17 @@ module.exports = {
 		},
 		serverless: {
 			actions: {
-				get: { // map user's method get into function /nextql_nextql/getuser
+/* map user's method get into function /nextql_nextql/getuser and implicit assign "user" model for function's result */
+				get: { 
 					name: "/nextql_nextql/getuser" 
-					// implicit assign "user" model for function's result
+					
 				}
 			},
 			computed: {
-				posts: { // map user's computed posts into function /nextql_nextql/getpost 
+/* map user's computed posts into function /nextql_nextql/getpost and explicit assign  "post" model for the function result */
+				posts: { 
 					name: "/nextql_nextql/getpost",
-					model: "post" // explict assign  "post" model for the function result
+					model: "post" 
 				}
 			}
 		}
