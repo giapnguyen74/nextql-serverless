@@ -1,0 +1,26 @@
+{
+  "name": "nextql-serverless",
+  "version": "0.0.1",
+  "description": "NextQL Plugin for Serverless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giapnguyen74/nextql-serverless.git"
+  },
+  "keywords": [
+    "serverless",
+    "nextql",
+    "nextql-plugin",
+    "openwhisk",
+    "aws"
+  ],
+  "author": "“Giap <“sorite2003@gmail.com”> (“https://www.linkedin.com/in/giapnh”)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giapnguyen74/nextql-serverless/issues"
+  },
+  "homepage": "https://github.com/giapnguyen74/nextql-serverless#readme"
+}
