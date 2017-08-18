@@ -87,8 +87,19 @@ function getpost(){
 	} 
 }
 ```
-result should be
-![result](images/result.png)
+result on cloud console
+```json
+{
+  "user": {
+    "get": {
+      "name": "Giap Nguyen Huu",
+      "posts": {
+        "text": "Hello World"
+      }
+    }
+  }
+}
+```
 
 
 
